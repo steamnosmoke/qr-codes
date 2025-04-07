@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.qr{
+  order:2;
+  width: 500px;
+}
+
+.qrInput,
+.qrButton
+ {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: transparent;
+
+  font-size: 24px;
+  color: #8917ac;
+}
+
+.qrButton{
+  cursor: pointer;
+  border: 3px solid #b647d8;
+  
+  transition: all .2s ease-in-out;
+
+  &:hover{
+    background-color: #b647d8;
+    color:#fff;
+  }
+}
